@@ -11,6 +11,7 @@
 		32A463BD2BFF2152006F8164 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A463BC2BFF2152006F8164 /* ContentView.swift */; };
 		32A463BF2BFF2154006F8164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A463BE2BFF2154006F8164 /* Assets.xcassets */; };
 		32A463C22BFF2154006F8164 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A463C12BFF2154006F8164 /* Preview Assets.xcassets */; };
+		32A463C92BFF21CF006F8164 /* DocumentScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A463C82BFF21CF006F8164 /* DocumentScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		32A463BC2BFF2152006F8164 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32A463BE2BFF2154006F8164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32A463C12BFF2154006F8164 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32A463C82BFF21CF006F8164 /* DocumentScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				32A463BA2BFF2152006F8164 /* DocumentScannerApp.swift */,
 				32A463BC2BFF2152006F8164 /* ContentView.swift */,
+				32A463C82BFF21CF006F8164 /* DocumentScannerView.swift */,
 				32A463BE2BFF2154006F8164 /* Assets.xcassets */,
 				32A463C02BFF2154006F8164 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				32A463BD2BFF2152006F8164 /* ContentView.swift in Sources */,
 				32A463BB2BFF2152006F8164 /* DocumentScannerApp.swift in Sources */,
+				32A463C92BFF21CF006F8164 /* DocumentScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				DEVELOPMENT_TEAM = L6W3DL7P44;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Give access to scan documents";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +309,7 @@
 				DEVELOPMENT_TEAM = L6W3DL7P44;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Give access to scan documents";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
